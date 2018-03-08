@@ -1,5 +1,5 @@
 FROM nginx:stable-alpine
 
-COPY templates.json /usr/share/nginx/html/templates.json
+VOLUME /usr/share/nginx/html
 
 EXPOSE 80
